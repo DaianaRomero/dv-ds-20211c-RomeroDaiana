@@ -6,6 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import ar.edu.davinci.dvds20211cRomeroDaiana.domain.Prenda;
+import ar.edu.davinci.dvds20211cRomeroDaiana.domain.TipoPrenda;
 import ar.edu.davinci.dvds20211cRomeroDaiana.exception.BusinessException;
 
 public interface PrendaService {
@@ -13,11 +14,15 @@ public interface PrendaService {
 	Prenda save(Prenda prenda) throws BusinessException;
 	Prenda update(Prenda prenda) throws BusinessException;
 	void delete(Prenda prenda);
+	void delete(Long id);
 	
+
 	Prenda findById(Long id) throws BusinessException;
 	
 	List<Prenda> list();
 	Page<Prenda> list(Pageable pageable);
 	long count();
+	List<TipoPrenda> getTipoPrendas();
 
+	
 }

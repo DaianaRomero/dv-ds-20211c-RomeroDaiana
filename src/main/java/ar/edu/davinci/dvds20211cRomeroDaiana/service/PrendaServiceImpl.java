@@ -11,6 +11,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import ar.edu.davinci.dvds20211cRomeroDaiana.domain.Prenda;
+import ar.edu.davinci.dvds20211cRomeroDaiana.domain.TipoPrenda;
 import ar.edu.davinci.dvds20211cRomeroDaiana.exception.BusinessException;
 import ar.edu.davinci.dvds20211cRomeroDaiana.repository.PrendaRepository;
 
@@ -38,6 +39,14 @@ public class PrendaServiceImpl implements PrendaService {
 		
 	}
 
+	@Override
+	public void delete(Long id) {
+		LOGGER.debug("Borrando la prenda con el id: " + id);
+		
+		repository.deleteById(id);
+	}		
+
+	
 	@Override
 	public Prenda update(Prenda prenda) throws BusinessException {
 		LOGGER.debug("Modificamos la prenda con el id: " + prenda.getId());
@@ -85,6 +94,11 @@ public class PrendaServiceImpl implements PrendaService {
 	@Override
 	public long count() {
 		return repository.count();
+	}
+	
+	@Override
+	public List<TipoPrenda> getTipoPrendas() {
+		return TipoPrenda.getTipoPrendas();
 	}
 	
 
