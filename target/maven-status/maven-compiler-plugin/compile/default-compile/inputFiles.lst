@@ -17,9 +17,11 @@ C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\ed
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\controller\request\PrendaInsertRequest.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\controller\rest\PrendaControllerRest.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\OrikaConfiguration.java
+C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\service\ItemServiceImpl.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\controller\view\PrendaController.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\controller\rest\ClienteControllerRest.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\domain\VentaTarjeta.java
+C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\service\VentaService.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\domain\VentaEfectivo.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\controller\request\ClienteUpdateRequest.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\service\PrendaService.java
@@ -31,3 +33,4 @@ C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\ed
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\repository\ClienteRepository.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\repository\VentaEfectivoRepository.java
 C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\repository\PrendaRepository.java
+C:\Users\agus_\OneDrive\Escritorio\dv-ds-20211c-RomeroDaiana\src\main\java\ar\edu\davinci\dvds20211cRomeroDaiana\service\ItemService.java
